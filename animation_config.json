@@ -15,23 +15,28 @@
   },
   "buttons": {
     "click_effect": "pulse_glow_ripple",
-    "glow_color": "#FF0000",
+    "glow_color": "#FF3C00",
     "ripple_color": "#00FFFF",
     "ripple_size": "large",
     "bounce": true,
-    "sound_effect": "click_pop"
+    "sound_effect": "click_pop",
+    "animation_duration": 300,
+    "easing": "easeOutQuad",
+    "hover_effect": "lift_glow"
   },
   "visualizer": {
     "enabled": true,
     "color_scheme": ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#8B00FF"],
-    "speed": 30,
-    "bar_count": 40,
+    "speed": 18,
+    "bar_count": 24,
     "mirror_effect": true,
-    "reactivity": "ultra",
+    "reactivity": "dynamic",
     "glow": true,
     "3d_depth": true,
     "waveform_overlay": true,
-    "bass_boost": true
+    "bass_boost": true,
+    "rhythm_sync": true,
+    "style": "fluid_bounce"
   },
   "particles": {
     "enabled": true,
