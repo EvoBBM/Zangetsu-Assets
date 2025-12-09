@@ -1,0 +1,22 @@
+{
+  "config_name": "Default Zangetsu Pack",
+  "version": 1.0,
+  "intro": {
+    "enabled": true,
+    "animation_type": "fade_scale",
+    "duration": 800,
+    "scale_start": 0.7,
+    "scale_end": 1.0,
+    "background_color": "#CC000000",
+    "border_color": "#00FF41"
+  },
+  "netview": {
+    "enabled": true,
+    "particle_count": 50,
+    "speed": "normal"
+  },
+  "buttons": {
+    "click_effect": "pulse",
+    "glow_color": "#00FF41"
+  }
+}
