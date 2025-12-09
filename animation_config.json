@@ -1,22 +1,64 @@
 {
-  "config_name": "Default Zangetsu Pack",
-  "version": 1.0,
+  "config_name": "Zangetsu Live Config",
+  "version": 2.5,
   "intro": {
     "enabled": true,
-    "animation_type": "fade_scale",
-    "duration": 800,
+    "duration": 1200,
     "scale_start": 0.7,
     "scale_end": 1.0,
-    "background_color": "#CC000000",
-    "border_color": "#00FF41"
-  },
-  "netview": {
-    "enabled": true,
-    "particle_count": 50,
-    "speed": "normal"
+    "animation_type": "fade_scale"
   },
   "buttons": {
-    "click_effect": "pulse",
-    "glow_color": "#00FF41"
-  }
+    "click_effect": "pulse"
+  },
+  "visualizer": {
+    "enabled": true,
+    "color": "#00FF41",
+    "speed": 85,
+    "bar_count": 12
+  },
+  "particles": {
+    "enabled": true,
+    "type": "snow",
+    "density": 50,
+    "speed": "normal"
+  },
+  "playlist": [
+    {
+      "title": "Best OPM Rap Love Songs 2025",
+      "url": "https://github.com/EvoBBM/Zangetsu-Assets/releases/download/v1.0/Best.OPM.Rap.Love.Songs.2025.IMMA.FLIRT.Nateman.Lucky._.Top.Spotify.Hits.Philippines.qhWumfuhf8w.mp3"
+    },
+    {
+      "title": "Hugot OPM Playlist Vol. 1",
+      "url": "https://github.com/EvoBBM/Zangetsu-Assets/releases/download/v1.0/Hugot.OPM.Playlist.Vol.1._.Musika.Para.Sa.Hindi.Kalmadong.Puso.PQ111FVxBeU.mp3"
+    },
+    {
+      "title": "LANY - 2023 Best Songs",
+      "url": "https://github.com/EvoBBM/Zangetsu-Assets/releases/download/v1.0/L.A.N.Y.-.2023.Playlist.Best.Songs.qE28NXVOeW4.mp3"
+    },
+    {
+      "title": "Multo - Cup Of Joe (Top Hits)",
+      "url": "https://github.com/EvoBBM/Zangetsu-Assets/releases/download/v1.0/Multo.-.Cup.Of.Joe._.Top.Hits.OPM.On.Spotify.2025.-.OPM.Trending-.Tagalog.Love.Songs.Playlist.imiwinLUETQ.mp3"
+    },
+    {
+      "title": "Nightcore Gaming Mix 2023",
+      "url": "https://github.com/EvoBBM/Zangetsu-Assets/releases/download/v1.0/Nightcore.Gaming.Mix.2023.1.Hour.Nightcore.Mix.Best.of.EDM.Mix.2023.mp3"
+    },
+    {
+      "title": "Phonk Music Mix 2025 (Aggressive)",
+      "url": "https://github.com/EvoBBM/Zangetsu-Assets/releases/download/v1.0/Phonk.Music.Mix.2025.1.HOUR.AGGRESSIVE.PHONK.PLAYLIST.2025._xUxFLEP6gc.mp3"
+    },
+    {
+      "title": "Post Malone Top Songs",
+      "url": "https://github.com/EvoBBM/Zangetsu-Assets/releases/download/v1.0/Post.Malone.Playlist._.Top.Songs.f4dkUo2QkR0.mp3"
+    },
+    {
+      "title": "Pwede Bang - Hev Abi (Trending)",
+      "url": "https://github.com/EvoBBM/Zangetsu-Assets/releases/download/v1.0/Pwede.Bang.-.Hev.Abi._.Best.OPM.Trending.Playlist.2025._.Tagalog.Love.Songs.With.Lyrics.opmlyrics.FbE2L15mZf4.mp3"
+    },
+    {
+      "title": "Popular Gaming Backsongs (NEFFEX)",
+      "url": "https://github.com/EvoBBM/Zangetsu-Assets/releases/download/v1.0/The.15.Most.Popular.Gaming.Backsongs.II.Best.NEFFEX.Songs.Of.All.Time.mp3"
+    }
+  ]
 }
